@@ -1,0 +1,44 @@
+.main{
+    text-align: center;
+}
+
+.table1{
+    margin: auto;
+}
+
+.background{
+    width: 60%;
+    margin: auto;
+    line-height: 2.25em;
+}
+
+.knownSkills{
+    margin: auto;
+}
+
+hr{
+    width: 100%;
+}
+
+h3{
+    color:#FF00FF;
+}
+.main{
+    background-image: url("CVBackground.jpg");
+    background-size:contain;
+    
+}
+
+.opacity{
+    opacity: 0.1;;
+}
+
+a{
+    color:darkgreen;
+    text-decoration: none;
+}
+
+a:hover{
+    color: lawngreen;
+}
+

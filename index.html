@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body>
+  <div class="main">
+<div class="myHeadlineAndImage" style="position: relative;">
+
+<div class="myHeadline">
+    <h2 style="color:darkslategray; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; letter-spacing: 35px;">MOSANNA  JALAL</h2>
+    <div class="insideMyHeadline">
+    <b>WAS</b>
+    <b>IS</b>
+    <b>WILL Be</b>
+    </div>
+</div>
+<div class="w3-content w3-section myImageDiv " style="max-width:500px">
+  <img class="mySlides w3-animate-top" src="picMJ-a.png" >
+  <img class="mySlides w3-animate-bottom" src="picMJ-b.png" >
+  <img class="mySlides w3-animate-top" src="picMJ-c.png" >
+  
+</div>
+
+
+<div class="afterMyImage">
+<h2 style="color:#808B96;">  Hello</h2>
+</div>
+</div>
+
+<div class="someThought">
+    <p><i>Things here can be highly underrated</i></p>
+</div>
+
+<div class="aboutMe">
+    <h3 style=" font-style: italic;">ABOUT ME</h3>
+    <div class="Intro">
+        <p>
+            Twenty+6 years old
+        </p>
+        <p>
+            From the land of enlightment-Gaya
+        </p>
+        <p>
+           Pursuing a career in full stack Web Dev. 
+
+        </p>
+        <p>
+            Trying to provide high values to IT Sector of my country .
+        </p>
+    </div>
+</div>
+
+<div class="additional">
+<h3 style="color: hotpink;text-decoration: underline; text-decoration-color:darkgrey">IN ADDITION TO A WEB DEVELOPER</h3>
+
+   <div class="also">
+    <h3>Historian</h3>
+    <h3>UPSC Aspirant</h3>
+    <h3>A Poet(in Persian)</h3>
+   </div>
+   
+
+</div>
+<div class="additional">
+    <h3 style="color: hotpink;text-decoration: underline; text-decoration-color:darkgrey">SCHOOLING AND DEGREES</h3>
+    
+       <div class="schooling">
+        <table class="schooling" cellspacing="13.5">
+            <thead>
+              <tr>
+                <td><h3>In 2014</h3>  </td>
+                <td><h4>I completed my matriculation</h4></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td> <h3>2015-2017</h3></td>
+                <td><h4>Intermediate in Science</h4></td>
+              </tr>
+              <tr>
+                <td> <h3>2017-2021</h3></td>
+                <td><h4>Electrical Engineering</h4></td>
+              </tr>
+              <tr>
+                <td><h3> 2021-Current</h3></td>
+                <td><h4>.    Working on my instincts</h4></td>
+              </tr>
+            </tbody>
+          </table>
+       </div>
+       
+    
+    </div>
+    <div class="skillDiv">
+        <h3 style="color: hotpink;text-decoration: underline; text-decoration-color:darkgrey">SKILLS</h3>
+        
+           <div class="skill">
+            <table class="skilltable" cellspacing="10">
+                <tbody><tr>
+                  <td><h3>WEB Development</h3></td>
+                  <td>⭐️⭐️⭐️⭐️⭐️</td>
+                </tr>
+                <tr>
+                  <td><h3>Data Structures &amp; Algorithms</h3></td>
+                  <td>⭐️⭐️⭐️⭐️⭐️</td>
+                </tr>
+                <tr>
+                  <td><h3>C Programming</h3></td>
+                  <td>⭐️⭐️⭐️⭐️⭐️</td>
+                </tr>
+                <tr>
+                  <td><h3>JAVA Programming</h3></td>
+                  <td>⭐️⭐️⭐️⭐️⭐️</td>
+                </tr>
+              </tbody></table>
+           </div>
+           
+        
+        </div>
+      </div>
+        <div id="footer">
+            <div><a href="https://twitter.com/JalalMosanna"><i>𝒯𝓌𝒾𝓉𝓉𝑒𝓇</i></a></div>
+            <div><a href="https://www.instagram.com/theycallme_mj__"><i>𝐼𝓃𝓈𝓉𝒶</i></a></div>
+            <div><a href="CV.html"><i>𝑀𝓎 𝒞𝒱</i></a></div>
+        </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 1400);    
+}
+</script>
+
+</body>
+</html>

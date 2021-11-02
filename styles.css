@@ -1,0 +1,187 @@
+.myHeadline{
+   
+    width: 90%;
+    height: 60px;
+    
+    margin:  auto ;
+    
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    
+}
+.main{
+    background-image: url("CVBackground.jpg");
+    background-size: contain;
+    width: 100%;
+    background-position: right;
+}
+.opacity{
+    opacity: 0.2;
+}
+.insideMyHeadline{
+  display: flex;
+  width: 85%;
+  height: 30%;
+  
+  justify-content:space-around;
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+}
+
+.insideMyHeadline b{
+    color: dimgray;
+    text-transform: lowercase;
+}
+
+.mySlides {display:none;}
+body{
+    background-color:lightgrey;
+    
+}
+.myImageDiv img{
+    margin-top: 700px;
+    height: 35%;
+    width: 35%;
+    margin-top: 30px;
+    margin-left: 32%;
+}
+
+.myImageDiv{
+    margin-top: 80%;
+}
+
+.afterMyImage{
+    margin-top: 5%;
+    margin: auto;
+    width: 45% ;
+    text-align: center;
+    font-style: italic;
+}
+
+.someThought{
+    margin: auto;
+    text-align: center;
+    font-family:monospace;
+    color:darkslategray;
+    font-size: medium;
+}
+
+.aboutMe{
+    margin: auto;
+    padding-top: 45px;
+    text-align: center;
+    color: hotpink;
+    width: 60%;
+}
+
+.Intro{
+color: rgb(97, 70, 83);
+font-family: monospace;
+}
+
+.additional{
+    
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+   margin: auto;
+   
+    
+}
+.school{
+    margin-top: 130px;
+    margin-left: 24.8%;
+    border: 30px;
+    position: relative;
+   
+    width: 50%;
+    height: 250px;
+    text-align: center;
+   
+}
+
+.also{
+    padding-top: 2%;
+    background-image: url("Also.png");
+    background-repeat: no-repeat;
+    width: 90%;
+    height:80%;
+    margin: auto;
+    background-position: center;
+    color:rgb(97, 70, 83);
+    background-size:contain;
+}
+.skill{
+    text-align: center;
+    padding-top: 2%;
+    background-image: url("skill.png");
+    background-repeat: no-repeat;
+    width: 60%;
+    height:70%;
+    margin: auto;
+    background-position: center;
+    color:rgb(97, 70, 83);
+    background-size:cover;
+}
+.skillDiv{
+    margin-top: 8.5%;
+    margin-left: 20%;
+    border: 30px;
+    position: relative;
+    width: 60%;
+    height: 350px;
+    text-align: center;
+}
+.schooling{
+    padding-top: 0%;
+    background-image: url("school.png");
+    background-repeat: no-repeat;
+    width: 90%;
+    height:80%;
+    margin: auto;
+    background-position: center;
+    color:rgb(97, 70, 83);
+    background-size:contain;
+  
+}
+h4{
+    color: black;
+    font-weight: lighter;
+    font-size: 0.5em;
+}
+
+
+table{
+    margin: auto;
+}
+
+#footer{
+    background-color: black;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 10px;
+     padding-top: 10px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    
+    
+    font-weight: lighter;
+    line-height: 2.25vmin;
+    
+}
+
+a:hover{
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+
+#footer:hover{
+    background-color:slateblue;
+    color: black;
+}
